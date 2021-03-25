@@ -1,0 +1,41 @@
+html {scrollbar-width: thin;}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#container {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: min(800px, 100vw);
+}
+
+#header-icon {
+  width: 100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 50;
+  font-size: 40px;
+}
+h4 {font-style: italic;}
+h1, h4 {
+  margin: 5px;
+}
+
+::selection {
+  background: #222;
+  color: #fff;
+}
+
+div.compare {
+  margin: 20px;
+  border-radius: 5px;
+}
