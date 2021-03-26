@@ -1,58 +1,66 @@
 html {scrollbar-width: thin;}
 
 body {
-  background: #fff;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 #container {
-  margin: 50px auto;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: min(800px, 100vw);
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: min(800px, 100vw);
 }
 
 #header-icon {
-  width: 100px;
-  margin: 0 auto;
+	width: 100px;
+	margin: 0 auto;
 }
 
 h1 {
-  font-weight: 50;
-  font-size: 40px;
+	font-weight: 50;
+	font-size: 40px;
 }
 h4 {font-style: italic;}
 h1, h4 {
-  margin: 5px;
+	margin: 5px;
 }
 
 ::selection {
-  background: #222;
-  color: #fff;
+	background: #222;
+	color: #fff;
 }
 
 div.compare {
-  margin: 20px;
-  border-radius: 5px;
+	margin: 20px;
+	border-radius: 5px;
 }
 
 h4.stupid {
-  margin: 15px;
-  font-weight: 200;
-  color: #333;
+	margin: 15px;
+	font-weight: 200;
+	color: #333;
 }
 
 img.stupid {
-  width: 400px;
-  border-radius: 10px;
-  margin: -5px auto;
+	width: 400px;
+	border-radius: 10px;
+	margin: -5px auto;
 }
 
 span.src {
-  font-size: 11px;
-  font-weight: 100;
+	margin-bottom: -16px;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+span.src a {
+	text-decoration: none;
+	color: #3e92ff;
 }
