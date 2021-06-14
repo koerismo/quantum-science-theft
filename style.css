@@ -64,3 +64,5 @@ span.src a {
 	text-decoration: none;
 	color: #3e92ff;
 }
+
+.icv { overflow: visible !important; }
